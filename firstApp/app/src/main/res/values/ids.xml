@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button" type="id"/>
+    <item name="selectcategory" type="id"/>
+    <item name="select_category" type="id"/>
+    <item name="givefeedback" type="id"/>
+</resources>

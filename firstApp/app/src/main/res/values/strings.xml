@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">firstApp</string>
+    <string name="lostpassword">
+        <a http="forgott password"> "https://www.facebook.com/"</a></string>
+
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <string-array name="category">
+        <item>Please Select Category</item>
+        <item>ELECTRICIAN</item>
+        <item>PLUMBER</item>
+        <item>CORPENTER</item>
+        <item>HOME CLEANING</item>
+    </string-array>
+
+    <string-array name="rating">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+
+</resources>

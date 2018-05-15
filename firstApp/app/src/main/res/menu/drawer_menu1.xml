@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/ups"
+                android:title="Update Profile"
+                android:icon="@drawable/update"
+                >
+            </item>
+            <item
+                android:id="@+id/rps"
+                android:title="Reset Password"
+                android:icon="@drawable/res"
+                >
+            </item>
+            <item
+                android:id="@+id/das"
+                android:title="Deactivate Account"
+                android:icon="@drawable/dac"
+                >
+            </item>
+            <item
+                android:id="@+id/s"
+                android:title="Search User"
+                android:icon="@drawable/sch"
+                >
+            </item>
+
+            <item
+                android:id="@+id/logout"
+                android:title="Logout"
+                android:icon="@drawable/ll"
+                >
+            </item>
+        </group>
+
+
+
+    </menu>

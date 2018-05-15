@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A5D6A7"
+    tools:context="com.example.p1s.firstapp.SPAfter_login">
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#E0E0E0">
+<include
+    android:id="@+id/toolbar"
+    layout="@layout/tool_bar"
+    />
+<!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To "
+        android:textColor="#039BE5"
+        android:textSize="30sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="86dp"/>
+
+    <TextView
+
+        android:text="Welcome to  "
+        android:textColor="#9C27B0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:textSize="20sp"
+        android:layout_marginTop="86dp"
+        android:id="@+id/text_1"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"/>
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/smile"
+        android:layout_below="@+id/text_1"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:text="view feedback"
+        android:background="@null"
+        android:textSize="20sp"
+        android:onClick="viewfeedback"
+        android:layout_weight="1"
+        android:textColor="#F06292"
+        android:id="@+id/da"
+        android:textStyle="italic"
+        android:layout_marginLeft="75dp"
+
+        android:layout_gravity="center_vertical"
+
+        android:layout_marginBottom="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView
+             android:text="Welcome to"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignTop="@+id/SC"
+             android:layout_alignParentStart="true"
+             android:layout_marginStart="0dp"
+             android:textSize="20sp"
+             android:layout_marginTop="0dp"
+             android:id="@+id/text_1"/>
+     </LinearLayout>
+
+     <Button
+         android:layout_height="wrap_content"
+         android:layout_width="200dp"
+         android:text="Update Profile"
+         android:background="@drawable/rounded_edge"
+         android:textSize="20sp"
+         android:onClick="SPUpdateProfile"
+         android:layout_marginTop="50dp"
+         android:layout_weight="1"
+         android:id="@+id/UP"
+         android:textStyle="italic"
+         android:layout_marginLeft="75dp"
+
+         android:layout_gravity="center_vertical"
+
+         android:layout_centerHorizontal="true"/>
+
+     <Button
+         android:layout_height="wrap_content"
+         android:layout_width="200dp"
+         android:text="Reset Password"
+         android:background="@drawable/rounded_edge"
+         android:textSize="20sp"
+         android:onClick="ResetPassword"
+         android:layout_marginTop="50dp"
+         android:layout_weight="1"
+         android:id="@+id/RP"
+         android:textStyle="italic"
+
+         android:layout_gravity="center_vertical"
+         android:layout_below="@+id/UP"
+         android:layout_alignStart="@+id/UP"/>
+
+     <Button
+         android:layout_height="wrap_content"
+         android:layout_width="200dp"
+         android:text="DEACTIVATE ACCOUNT"
+         android:background="@drawable/rounded_edge"
+         android:textSize="20sp"
+         android:onClick="Deactivate"
+         android:layout_marginTop="50dp"
+         android:layout_weight="1"
+         android:id="@+id/da"
+         android:textStyle="italic"
+         android:layout_marginLeft="75dp"
+
+         android:layout_gravity="center_vertical"
+         android:layout_below="@+id/RP"
+         android:layout_centerHorizontal="true"/>
+
+     <Button
+         android:layout_height="wrap_content"
+         android:layout_width="200dp"
+         android:text="SEARCH"
+         android:background="@drawable/rounded_edge"
+         android:textSize="20sp"
+         android:onClick="Search"
+         android:layout_marginTop="150dp"
+         android:layout_weight="1"
+         android:id="@+id/da"
+         android:textStyle="italic"
+         android:layout_marginLeft="75dp"
+
+         android:layout_gravity="center_vertical"
+         android:layout_below="@+id/RP"
+         android:layout_centerHorizontal="true"/>
+
+     <Button
+         android:layout_height="wrap_content"
+         android:layout_width="200dp"
+         android:text="view feedback"
+         android:background="@drawable/rounded_edge"
+         android:textSize="20sp"
+         android:onClick="viewfeedback"
+         android:layout_marginTop="250dp"
+         android:layout_weight="1"
+         android:id="@+id/da"
+         android:textStyle="italic"
+         android:layout_marginLeft="75dp"
+
+         android:layout_gravity="center_vertical"
+         android:layout_below="@+id/RP"
+         android:layout_centerHorizontal="true"/>
+
+     <Button
+         android:layout_height="wrap_content"
+         android:layout_width="200dp"
+         android:text="Logout"
+         android:background="@drawable/rounded_edge"
+         android:textSize="20sp"
+         android:onClick="show"
+         android:layout_marginTop="550dp"
+         android:layout_weight="1"
+         android:id="@+id/log"
+         android:textStyle="italic"
+         android:layout_marginLeft="75dp"
+
+         android:layout_gravity="center_vertical"/>
+
+ -->
+
+
+
+
+</RelativeLayout>
+    <android.support.design.widget.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navigation_view"
+        app:menu="@menu/drawer_menu1"
+        app:headerLayout="@layout/navigation_drawer_header"
+        android:layout_gravity="start">
+    </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>

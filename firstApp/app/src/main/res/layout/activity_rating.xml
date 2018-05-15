@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rating"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.p1s.firstapp.Rating">
+
+
+    <TextView
+        android:text=" Give Overall Rating"
+        android:textSize="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textColor="#009688"
+        android:layout_above="@+id/d"
+        android:layout_alignStart="@+id/user"
+        android:layout_marginBottom="88dp"/>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:id="@+id/rgroup"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/rt">
+
+
+
+
+        <RadioButton
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton1"
+            android:text="Excellent"
+            android:textSize="25dp"
+            android:textColor="#311B92"
+            android:checked="false"
+            android:onClick="rbclick"
+
+            android:layout_marginStart="30dp"/>
+
+        <RadioButton
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#311B92"
+            android:id="@+id/radioButton2"
+            android:text="Good"
+            android:checked="false"
+            android:onClick="rbclick"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton3"
+            android:text="Average"
+            android:textSize="25dp"
+            android:textColor="#311B92"
+            android:checked="false"
+            android:onClick="rbclick"
+            android:layout_below="@+id/radioButton2"
+            android:layout_alignStart="@+id/radioButton1"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"/>
+
+        <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton5"
+        android:text="Poor"
+        android:textSize="25dp"
+        android:textColor="#311B92"
+        android:checked="false"
+        android:onClick="rbclick"
+        android:layout_below="@+id/radioButton4"
+        android:layout_alignStart="@+id/radioButton4"
+        android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"/>
+
+
+
+        <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton4"
+        android:textSize="25dp"
+        android:textColor="#311B92"
+        android:text="Fair"
+        android:checked="false"
+        android:onClick="rbclick"
+        android:layout_below="@+id/radioButton3"
+        android:layout_alignStart="@+id/radioButton2"
+        android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"/>
+
+
+    </RadioGroup>
+
+    <Button
+        android:text="Submit"
+        android:background="#81C784"
+        android:textColor="#D81B60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+
+        android:id="@+id/rt"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginStart="49dp"
+        android:layout_marginBottom="43dp"/>
+
+</RelativeLayout>

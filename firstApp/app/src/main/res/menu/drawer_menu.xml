@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      android:background="?attr/colorPrimaryDark" >
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/up"
+            android:title="Update Profile"
+            android:icon="@drawable/update"
+            >
+        </item>
+        <item
+            android:id="@+id/rp"
+            android:title="Reset Password"
+            android:icon="@drawable/res"
+            >
+        </item>
+        <item
+            android:id="@+id/da"
+            android:title="Deactivate Account"
+            android:icon="@drawable/dac"
+            >
+        </item>
+        <item
+            android:id="@+id/logout"
+            android:title="Logout"
+            android:icon="@drawable/ll"
+            >
+        </item>
+    </group>
+
+
+
+
+
+</menu>

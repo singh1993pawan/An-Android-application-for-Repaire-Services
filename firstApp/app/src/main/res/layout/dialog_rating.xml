@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1">
+
+
+
+    <TextView
+        android:text=" Give Overall Rating"
+        android:textSize="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textColor="#009688"
+        android:layout_above="@+id/d"
+        android:layout_alignStart="@+id/user"
+        android:layout_marginBottom="88dp"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        android:id="@+id/rgroup"
+        android:layout_marginLeft="50dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton1"
+            android:text="Excellent"
+            android:textSize="25dp"
+            android:textColor="#311B92"
+            android:checked="false"
+            android:onClick="rbclick"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#311B92"
+            android:id="@+id/radioButton2"
+            android:text="Good"
+            android:checked="false"
+            android:onClick="rbclick"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton3"
+            android:text="Average"
+            android:textSize="25dp"
+            android:textColor="#311B92"
+            android:checked="false"
+            android:onClick="rbclick"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton5"
+            android:text="Poor"
+            android:textSize="25dp"
+            android:textColor="#311B92"
+            android:checked="false"
+            android:onClick="rbclick"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton4"
+            android:textSize="25dp"
+            android:textColor="#311B92"
+            android:text="Fair"
+            android:checked="false"
+            android:onClick="rbclick"/>
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:text="Submit"
+        android:background="#81C784"
+        android:textColor="#D81B60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="23dp"
+        android:layout_marginLeft="50dp"
+
+        android:id="@+id/rt"/>
+</LinearLayout>
+
+
+
+
+

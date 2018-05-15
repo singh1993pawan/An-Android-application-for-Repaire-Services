@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#B2FF59"
+              android:weightSum="1">
+
+
+    <TextView
+        android:text="Registration for"
+        android:textSize="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textColor="#009688"
+        android:layout_above="@+id/d"
+        android:layout_alignStart="@+id/user"
+        android:layout_marginBottom="88dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.06"
+        android:weightSum="1">
+
+
+        <Button
+            android:text="SERVICE PROVIDER"
+            android:background="@drawable/rounded_edge"
+            android:layout_width="130dp"
+            android:layout_marginBottom="20dp"
+
+            android:layout_height="wrap_content"
+
+            android:id="@+id/sp"
+            android:textSize="20dp"
+            android:onClick="SP"
+            android:layout_marginLeft="10dp"
+
+            android:layout_weight="0.02"/>
+
+        <Button
+            android:text="USER"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edge"
+            android:layout_width="130dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/user"
+            android:textSize="20dp"
+            android:onClick="User"
+
+
+           />
+    </LinearLayout>
+
+</LinearLayout>

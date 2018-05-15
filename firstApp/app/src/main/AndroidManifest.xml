@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.p1s.firstapp">
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission-sdk-m android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission-sdk-m android:name="android.permission.WRITE_CONTACTS"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity"/>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+        <activity
+            android:name=".Main3Activity"
+            android:noHistory="true">
+        </activity>
+        <activity android:name=".select_option">
+        </activity>
+        <activity
+            android:name=".sp_option"
+            android:noHistory="true">
+        </activity>
+        <activity android:name=".After_login">
+        </activity>
+        <activity android:name=".ResetPassword">
+        </activity>
+        <activity android:name=".Update">
+        </activity>
+        <activity android:name=".Update_Email">
+        </activity>
+        <activity android:name=".Update_Address">
+        </activity>
+        <activity android:name=".Update_Contact">
+        </activity>
+        <activity android:name=".selectCategory">
+        </activity>
+        <activity android:name=".giveFeedback">
+        </activity>
+        <activity android:name=".Show">
+        </activity>
+        <activity android:name=".SearchShow">
+        </activity>
+        <activity android:name=".SPAfter_login">
+        </activity>
+        <activity android:name=".SPUpdate">
+        </activity>
+        <activity android:name=".SP_Email">
+        </activity>
+        <activity android:name=".SP_Address">
+        </activity>
+        <activity android:name=".SP_Contact">
+        </activity>
+        <activity android:name=".USearch">
+        </activity>
+        <activity android:name=".UShow">
+        </activity>
+        <activity android:name=".Rating">
+        </activity>
+        <activity android:name=".Fshow">
+        </activity>
+        <activity android:name=".ForgotPassword">
+        </activity>
+        <activity android:name=".SPReset_password">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.p1s.firstapp.MainActivity"
+    android:background="@android:color/background_light"
+    android:backgroundTintMode="src_over"
+    android:clipToPadding="false">
+
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:textColor="#E65100"
+        android:layout_height="wrap_content"
+        android:text="National Institute of Technology
+                        Calicut"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true" /> -->
+
+    <!--<ImageView
+        android:src="@drawable/nitc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp" /> -->
+
+
+
+       <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#26C6DA"
+            android:id="@+id/textView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Name"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#26C6DA"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#26C6DA"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Number"
+            android:textSize="30sp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#26C6DA"/>-->
+
+    <!--<ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@drawable/sk"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UNLIKE"
+        android:textSize="40sp"
+        android:layout_weight="0"
+        android:layout_marginLeft="140dp"
+        android:textColor="#26C6DA"
+        android:layout_marginEnd="124dp"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="37dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:text="LIKE"
+        android:textSize="40sp"
+        android:layout_marginLeft="150dp"
+        android:textColor="#26C6DA"
+        android:layout_marginTop="19dp"
+        android:id="@+id/textView"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="109dp" />
+    <TextView
+        android:text=" I am in this corner"
+        android:textSize="20sp"
+        android:textColor="#F57F17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:text="Wait I am  here"
+        android:textSize="20sp"
+        android:textColor="#795548"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:text="No up here"
+        android:textColor="#00BFA5"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView" />-->
+
+    <!-- />
+-->
+    <ImageView
+
+        android:src="@drawable/s1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitStart"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:text="ONLINE SERVICE PROVIDER"
+        android:textSize="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="150dp"
+        android:textColor="#1B5E20"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/textView"/>
+
+    <ImageView
+
+        android:src="@drawable/i6"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView"
+        />
+
+    <Button
+        android:text="REGISTRATION"
+        android:background="@drawable/rounded_edge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="67dp"
+        android:width="150dp"
+        android:onClick="Registration"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:id="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/button4"
+        android:layout_marginEnd="16dp"/>
+
+    <Button
+        android:text="LOGIN"
+        android:background="@drawable/rounded_edge"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="27dp"
+        android:id="@+id/button4"
+        android:textSize="20dp"
+        android:onClick="Login"
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_alignParentEnd="true"/>
+
+
+</RelativeLayout>

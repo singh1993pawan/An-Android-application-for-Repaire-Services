@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4DB6AC"
+    android:id="@+id/drawer_layout"
+    tools:context="com.example.p1s.firstapp.After_login">
+    <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="#E0E0E0">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/tool_bar"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome To "
+            android:textColor="#039BE5"
+            android:textSize="30sp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="86dp"/>
+
+        <TextView
+
+            android:text="Welcome to  "
+            android:textColor="#9C27B0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:textSize="20sp"
+            android:layout_marginTop="86dp"
+            android:id="@+id/text_1"
+            android:layout_below="@+id/toolbar"
+            android:layout_alignParentStart="true"/>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="28dp"
+            android:src="@drawable/smile"
+            android:layout_below="@+id/text_1"
+            android:layout_centerHorizontal="true"/>
+
+       <!-- <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Happy  To Help You"
+            android:textSize="30sp"
+            android:textColor="#00BFA5"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="550dp"/>-->
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:text="Select Category"
+            android:background="@null"
+            android:textSize="20sp"
+            android:onClick="selectCategory"
+            android:layout_weight="1"
+            android:id="@+id/SC"
+            android:textStyle="italic"
+            android:textColor="#F06292"
+            android:layout_marginLeft="75dp"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="56dp"/>
+
+        <!--
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:text="Update Profile"
+            android:background="@drawable/rounded_edge"
+            android:textSize="20sp"
+            android:onClick="UpdateProfile"
+            android:layout_marginTop="150dp"
+            android:layout_weight="1"
+            android:id="@+id/UP"
+            android:textStyle="italic"
+            android:layout_marginLeft="75dp"
+            android:layout_gravity="center_vertical"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:text="Reset Password"
+            android:background="@drawable/rounded_edge"
+            android:textSize="20sp"
+            android:onClick="ResetPassword"
+            android:layout_marginTop="250dp"
+            android:layout_weight="1"
+            android:id="@+id/RP"
+            android:textStyle="italic"
+            android:layout_marginLeft="75dp"
+            android:layout_gravity="center_vertical"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:text="Feedback"
+            android:background="@drawable/rounded_edge"
+            android:textSize="20sp"
+            android:onClick="GiveFeedback"
+            android:layout_marginTop="350dp"
+            android:layout_weight="1"
+            android:id="@+id/da"
+            android:textStyle="italic"
+            android:layout_marginLeft="75dp"
+            android:layout_gravity="center_vertical"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:text="DEACTIVATE ACCOUNT"
+            android:background="@drawable/rounded_edge"
+            android:textSize="20sp"
+            android:onClick="Deactivate"
+            android:layout_marginTop="450dp"
+            android:layout_weight="1"
+            android:id="@+id/da"
+            android:textStyle="italic"
+            android:layout_marginLeft="75dp"
+            android:layout_gravity="center_vertical"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:text="Logout"
+            android:background="@drawable/rounded_edge"
+            android:textSize="20sp"
+            android:onClick="show"
+            android:layout_marginTop="550dp"
+            android:layout_weight="1"
+            android:id="@+id/log"
+            android:textStyle="italic"
+            android:layout_marginLeft="75dp"
+            android:layout_gravity="center_vertical"/>-->
+    </RelativeLayout>
+        <android.support.design.widget.NavigationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/navigation_view"
+            app:menu="@menu/drawer_menu"
+            app:headerLayout="@layout/navigation_drawer_header"
+            android:layout_gravity="start">
+        </android.support.design.widget.NavigationView>
+</android.support.v4.widget.DrawerLayout>
